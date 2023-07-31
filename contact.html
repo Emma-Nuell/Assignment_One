@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="mentor.html">Mentor</a></li>
+                <li><a href="chess.html">Chess</a></li>
+                <li><a href="scores.html">Scores</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact">
+           <form>
+            <label for="name">Your name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Your email:</label> 
+            <input type="email" id="email" required>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" required>
+            <label for="message">Your Message:</label>
+            <textarea id="message" rows="10" cols="30"></textarea><br>
+            <button>Send Message</button>
+           </form>
+        </div>
+    </main>
+</body>
+<style>
+    header{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+     }
+    nav{
+        width: 50%;
+        max-width: 300px;
+        height: 70px;
+    }
+    nav > ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100%;
+        padding-inline-start: 0;
+    }
+    nav > ul > li{
+        display: block;
+        margin: 0 0.2rem;
+        padding: 0.2rem;
+        font-weight: bold;
+    }
+    nav > ul > li > a:visited{
+        color: blue
+    }
+    .contact{
+        margin: auto;
+        width: 50%;
+    }
+    label{
+        display: block;
+        line-height: 2;
+    }
+    button{
+        padding: 7px;
+    }
+</style>
+</html>

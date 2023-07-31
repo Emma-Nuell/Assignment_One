@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess page</title>
+</head>
+<body>
+    <header>
+        <h1>Chess page</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="mentor.html">Mentor</a></li>
+                <li><a href="chess.html">Chess</a></li>
+                <li><a href="scores.html">Scores</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+<style>
+    header{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+     }
+    nav{
+        width: 50%;
+        max-width: 300px;
+        height: 70px;
+    }
+    nav > ul{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100%;
+        padding-inline-start: 0;
+    }
+    nav > ul > li{
+        display: block;
+        margin: 0 0.2rem;
+        padding: 0.2rem;
+        font-weight: bold;
+    }
+    nav > ul > li > a:visited{
+        color: blue
+    }
+</style>
+</html>
