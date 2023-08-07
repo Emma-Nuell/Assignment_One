@@ -19,13 +19,126 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <h2 id="title">Scoresheet of Mr. Ade - SS2 Class - St. Benedict High School</h2>
+        <table>
+            <thead>
+         <tr class="heading">
+            <th>Serial Number</th>
+            <th>Student's Name</th>
+            <th class="maths">Mathematics</th>
+            <th class="eng">English</th>
+            <th class="phys">Physics</th>
+            <th class="chem">Chemistry</th>
+            <th class="bios">Biology</th>
+            <th class="total-score" colspan="2">Total Score</th>
+         </tr>
+         </thead>
+         <tbody>
+         <tr class="student-1">
+            <td>1</td>
+            <th>Adekunle</th>
+            <td class="maths">72</td>
+            <td class="eng">43</td>
+            <td class="phys">78</td>
+            <td class="chem">73</td>
+            <td class="bios">37</td>
+            <td class="total-score">303</td>
+         </tr>
+         <tr class="student-2">
+            <td>2</td>
+            <th>John</th>
+            <td class="maths">42</td>
+            <td class="eng">64</td>
+            <td class="phys">70</td>
+            <td class="chem">55</td>
+            <td class="bios">58</td>
+            <td class="total-score">289</td>
+         </tr>
+         <tr class="student-3">
+            <td>3</td>
+            <th>Peter</th>
+            <td class="maths">62</td>
+            <td class="eng">40</td>
+            <td class="phys">73</td>
+            <td class="chem">75</td>
+            <td class="bios">99</td>
+            <td class="total-score">349</td>
+         </tr>
+         <tr class="student-4">
+            <td>4</td>
+            <th>Rukayat</th>
+            <td class="maths">77</td>
+            <td class="eng">75</td>
+            <td class="phys">78</td>
+            <td class="chem">75</td>
+            <td class="bios">82</td>
+            <td class="total-score">387</td>
+         </tr>
+         <tr class="student-5">
+            <td>5</td>
+            <th>Paul</th>
+            <td class="maths">72</td>
+            <td class="eng">40</td>
+            <td class="phys">72</td>
+            <td class="chem">70</td>
+            <td class="bios">97</td>
+            <td class="total-score">351</td>
+         </tr>
+         <tr class="student-6">
+            <td>6</td>
+            <th>Victor</th>
+            <td class="maths">76</td>
+            <td class="eng">64</td>
+            <td class="phys">48</td>
+            <td class="chem">99</td>
+            <td class="bios">37</td>
+            <td class="total-score">324</td>
+         </tr>
+         <tr class="student-7">
+            <td>7</td>
+            <th>John</th>
+            <td class="maths">62</td>
+            <td class="eng">54</td>
+            <td class="phys">78</td>
+            <td class="chem">75</td>
+            <td class="bios">64</td>
+            <td class="total-score">333</td>
+         </tr>
+         <tr class="student-8">
+            <td>8</td>
+            <th>Doe</th>
+            <td class="maths">52</td>
+            <td class="eng">84</td>
+            <td class="phys">48</td>
+            <td class="chem">85</td>
+            <td class="bios">27</td>
+            <td class="total-score">296</td>
+         </tr>
+         <tr class="student-9">
+            <td>9</td>
+            <th>Stephen</th>
+            <td class="maths">92</td>
+            <td class="eng">44</td>
+            <td class="phys">78</td>
+            <td class="chem">65</td>
+            <td class="bios">61</td>
+            <td class="total-score">340</td>
+         </tr>
+         </tbody>
+        </table>
+    </main>
 </body>
 <style>
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f2f2f2;
+    }
     header{
         width: 100%;
         height: 100px;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
      }
     nav{
@@ -49,6 +162,22 @@
     }
     nav > ul > li > a:visited{
         color: blue
+    }
+    h2{
+        text-align: center;
+    }
+    table{
+        margin: auto;
+        border: 2px solid #000;
+        text-align: center; 
+        border-collapse: collapse;
+    }
+    table td, th{
+        border: 1px solid #000;
+        padding: 10px
+    }
+    .total-score{
+        font-weight: 600;
     }
 </style>
 </html>
